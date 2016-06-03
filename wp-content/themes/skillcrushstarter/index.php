@@ -28,7 +28,7 @@ get_header(); ?>
     <?php get_sidebar(); ?>
     <?php if ( have_posts() ): ?>
 	<div id="navigation" class="container">
-            <div class="left"><?php next_posts_link('&larr; <span>Much Older Posts</span>'); ?></div>
+            <div class="left"><?php next_posts_link('&larr; <span>Really Much Older Posts</span>'); ?></div>
             <div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
         </div>
     <?php endif; ?>
